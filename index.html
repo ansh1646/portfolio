@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | Ansh</title>
+    <meta
+      name="description"
+      content="A student portfolio showcasing projects, technical skills, and learning."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #586174;
+        --accent: #315efb;
+        --paper: #f6f8fc;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          Segoe UI,
+          sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 56px 22px;
+      }
+      .hero,
+      section {
+        background: white;
+        border: 1px solid #e3e8f2;
+        border-radius: 18px;
+        padding: 28px;
+        margin-bottom: 20px;
+      }
+      .eyebrow {
+        color: var(--accent);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 0.78rem;
+      }
+      h1 {
+        font-size: clamp(2.2rem, 6vw, 4rem);
+        line-height: 1.08;
+        margin: 10px 0 16px;
+      }
+      h2 {
+        margin-top: 0;
+      }
+      p {
+        color: var(--muted);
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        list-style: none;
+      }
+      .chips li {
+        background: #edf1ff;
+        color: #2447b8;
+        border-radius: 999px;
+        padding: 6px 12px;
+        font-size: 0.9rem;
+      }
+      .project {
+        border-top: 1px solid #e8ebf2;
+        padding: 16px 0 0;
+        margin-top: 16px;
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        text-align: center;
+        color: var(--muted);
+        padding: 8px;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <div class="eyebrow">Student · Developer</div>
+        <h1>Hi, I'm Ansh.</h1>
+        <p>
+          I build practical software projects and enjoy solving problems with
+          programming, data, and AI. This portfolio highlights my work and the
+          skills I'm developing.
+        </p>
+        <p>
+          <a href="#projects">Explore projects</a> ·
+          <a href="#contact">Contact</a>
+        </p>
+      </header>
+
+      <section>
+        <h2>About</h2>
+        <p>
+          I'm a student focused on strengthening my foundations in software
+          development, algorithms, data analysis, and machine learning. I learn
+          by building, testing, and improving projects.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul class="chips">
+          <li>Python</li>
+          <li>Data Analysis</li>
+          <li>SQL</li>
+          <li>Algorithms</li>
+          <li>Git & GitHub</li>
+          <li>APIs</li>
+          <li>Machine Learning</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <!--email_off-->ansh@gamil.com<!--/email_off-->
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/ansh1646">Ansh1646</a>
+        </p>
+      </section>
+      <footer>
+        © 2026 Ansh · Built with HTML and CSS · Published with GitHub Pages
+      </footer>
+    </main>
+  </body>
+</html>
